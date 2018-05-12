@@ -2,16 +2,17 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+# from selenium.common.exceptions import TimeoutException
+from course import Course
 import time 
 import re 
-# from selenium.common.exceptions import TimeoutException
 
 
 class Scraper: 
     """control selenium webdriver to scrap I-Learn for assignments"""
     def __init__(self): 
         self.login_credentials = {
-            "username": input(), 
+            "username": "hooforfoo", 
             "password": input(),
         }
         self.url = "https://byui.brightspace.com/"
@@ -47,9 +48,12 @@ class Scraper:
 
         current_semester_div = self.driver.find_element_by_xpath('//*[@id="courses"]/div/div[2]')
 
-        for course_name, course_div in self.find_course_names(current_semester_div): 
-            pass 
-
+        # a list of course objects which will scrap their respective courses for data which will be used later 
+        self.courses = [
+            Course(self.driver, course_name, course_div) 
+            for course_name, course_div in self.find_course_names(current_semester_div)
+        ]
+ 
     def find_course_names(self, semester_div):
         """yields every course name for every course div in the semester 
 
