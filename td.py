@@ -1,4 +1,7 @@
-class Todo: 
+import todoist
+
+
+class TD: 
     def __init__(self, text, due_date, project, priority=None): 
         self.text = text 
         self.due_date = due_date 
