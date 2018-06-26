@@ -2,6 +2,7 @@ from selenium import webdriver
 # from selenium.common.exceptions import TimeoutException
 from sleep_functions import sleep_until_div
 from course import Course
+import threading
 import json 
 import re 
 
@@ -13,13 +14,14 @@ class Scraper:
             secret = json.load(f)
 
         self.login_credentials = {
-            "username": "hooforfoo", 
-            "password": secret.get("password")
+            "username": secret.get("username"), 
+            "password": secret.get("password"),
         }
         self.url = "https://byui.brightspace.com/"
         self.login_page_title = "CAS – Central Authentication Service"
 
         self.init_driver()
+        self.driver.quit()
 
     def init_driver(self): 
         self.driver = webdriver.Firefox()
@@ -45,10 +47,20 @@ class Scraper:
 
         # a list of course objects which will scrap their respective courses for data which will be used later 
         self.courses = [
-            Course(self.driver, course_name, course_div) 
-            for course_name, course_div in self.find_course_names(current_semester_div)
+            Course(course_name, course_div, course_url) 
+            for course_name, course_div, course_url in self.find_course_names(current_semester_div)
         ]
- 
+
+        # for course in self.courses: 
+        #     print(course.name)
+        #     print(course.url)
+        #     print(course.div)
+
+        for course in self.courses:
+            t = threading.Thread(target=course.scrap_course_data, args=())
+            t.start()
+
+
     def find_course_names(self, semester_div):
         """yields every course name for every course div in the semester 
 
@@ -57,16 +69,18 @@ class Scraper:
         """
         i = 0 
         while True: 
-            course_name = semester_div.find_element_by_xpath(f'div[{i+1}]/div[2]/div').get_attribute('innerHTML') 
+            course_name = semester_div.find_element_by_xpath(f'div[{i+1}]/div[2]/div').get_attribute('innerHTML')
             course_div = semester_div.find_element_by_xpath(f'div[{i+1}]/div[2]')
 
-            print(course_name)
+            # the onclick attribute has a subtag in it which most likely makes sense to i-learn
+            # the regex takes the subtag in the form "location.href='url'", and returns just the url 
+            course_url = re.findall('^.*(https://byui.brightspace.com/d2l/home/[0-9]*)', course_div.get_attribute("onclick"))[0]
 
             if re.match('^Devotional', course_name): 
                 return 
 
             i += 1
-            yield course_name, course_div 
+            yield course_name, course_div, course_url
 
 
 if __name__ == "__main__": 
