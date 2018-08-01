@@ -295,3 +295,282 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 2018-06-30 15:00:29.536 plugin-container[3285:124769] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533095393525	geckodriver	INFO	geckodriver 0.20.1
+1533095393626	geckodriver	INFO	Listening on 127.0.0.1:55558
+1533095394536	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.eAJcSiBjiKKN"
+2018-07-31 20:49:56.989 plugin-container[8570:2257591] Unable to find feedback application.
+2018-07-31 20:49:56.998 plugin-container[8570:2257591] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x743b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 20:49:57.357 plugin-container[8570:2257591] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x112c89a60 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 20:49:57.361 plugin-container[8570:2257615] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-07-31 20:49:57.802 plugin-container[8579:2257779] Unable to find feedback application.
+2018-07-31 20:49:57.813 plugin-container[8579:2257779] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7c37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1533095397924	Marionette	INFO	Listening on port 55569
+1533095397994	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-31 20:49:58.002 plugin-container[8579:2257779] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11453d6d0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 20:49:58.007 plugin-container[8579:2257797] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533095409629	geckodriver	INFO	geckodriver 0.20.1
+1533095409634	geckodriver	INFO	geckodriver 0.20.1
+1533095409895	geckodriver	INFO	Listening on 127.0.0.1:55729
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533095409909	geckodriver	INFO	Listening on 127.0.0.1:55728
+1533095410648	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.81f8aJCH7YtI"
+1533095410656	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.omVAGVa8jKfm"
+2018-07-31 20:50:13.177 plugin-container[8606:2259798] Unable to find feedback application.
+2018-07-31 20:50:13.202 plugin-container[8606:2259798] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b07, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 20:50:13.242 plugin-container[8607:2259820] Unable to find feedback application.
+2018-07-31 20:50:13.263 plugin-container[8607:2259820] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7e43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 20:50:13.722 plugin-container[8606:2259798] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x112486b80 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 20:50:13.726 plugin-container[8606:2259850] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-07-31 20:50:13.732 plugin-container[8607:2259820] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11ba31970 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 20:50:13.736 plugin-container[8607:2259902] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-07-31 20:50:13.976 plugin-container[8608:2260024] Unable to find feedback application.
+2018-07-31 20:50:13.994 plugin-container[8608:2260024] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7243, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 20:50:14.036 plugin-container[8609:2260030] Unable to find feedback application.
+2018-07-31 20:50:14.049 plugin-container[8609:2260030] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x733b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 20:50:14.442 plugin-container[8608:2260024] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11823c700 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 20:50:14.447 plugin-container[8608:2260035] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-07-31 20:50:14.495 plugin-container[8609:2260030] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11a538730 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 20:50:14.499 plugin-container[8609:2260091] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533095414677	Marionette	INFO	Listening on port 55739
+1533095414759	Marionette	INFO	Listening on port 55743
+1533095414780	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533095414872	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-31 20:57:07.005 plugin-container[8644:2303573] Unable to find feedback application.
+2018-07-31 20:57:07.018 plugin-container[8644:2303573] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 20:57:07.170 plugin-container[8644:2303573] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x1147417c0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 20:57:07.173 plugin-container[8644:2303591] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533097299893	geckodriver	INFO	geckodriver 0.20.1
+1533097299964	geckodriver	INFO	Listening on 127.0.0.1:58763
+1533097300920	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.0AG1z7dtaofW"
+2018-07-31 21:21:42.766 plugin-container[9196:2462050] Unable to find feedback application.
+2018-07-31 21:21:42.776 plugin-container[9196:2462050] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x773b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:21:42.941 plugin-container[9196:2462050] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x1167319a0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:21:42.944 plugin-container[9196:2462057] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533097303306	Marionette	INFO	Listening on port 58774
+1533097303335	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-31 21:21:44.024 plugin-container[9197:2462238] Unable to find feedback application.
+2018-07-31 21:21:44.036 plugin-container[9197:2462238] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x703b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:21:44.179 plugin-container[9197:2462238] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11ac43790 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:21:44.182 plugin-container[9197:2462245] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533097315718	geckodriver	INFO	geckodriver 0.20.1
+1533097315722	geckodriver	INFO	geckodriver 0.20.1
+1533097315831	geckodriver	INFO	Listening on 127.0.0.1:58968
+1533097315835	geckodriver	INFO	Listening on 127.0.0.1:58967
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533097316747	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.QofJsMpX8iUa"
+1533097316747	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.r93U7jShuXHf"
+2018-07-31 21:21:58.816 plugin-container[9203:2463929] Unable to find feedback application.
+2018-07-31 21:21:58.869 plugin-container[9203:2463929] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8d3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:21:58.915 plugin-container[9204:2463934] Unable to find feedback application.
+2018-07-31 21:21:58.939 plugin-container[9204:2463934] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8847, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:21:59.135 plugin-container[9203:2463929] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x111018880 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:21:59.138 plugin-container[9203:2463952] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-07-31 21:21:59.346 plugin-container[9204:2463934] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x110b1bbe0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:21:59.351 plugin-container[9204:2463955] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-07-31 21:21:59.679 plugin-container[9205:2464147] Unable to find feedback application.
+2018-07-31 21:21:59.690 plugin-container[9205:2464147] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x753b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:21:59.715 plugin-container[9206:2464154] Unable to find feedback application.
+2018-07-31 21:21:59.730 plugin-container[9206:2464154] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8907, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:22:00.030 plugin-container[9205:2464147] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x116a346a0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:22:00.034 plugin-container[9205:2464157] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-07-31 21:22:00.046 plugin-container[9206:2464154] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x110d376a0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:22:00.051 plugin-container[9206:2464174] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533097320053	Marionette	INFO	Listening on port 58986
+1533097320059	Marionette	INFO	Listening on port 58985
+1533097320171	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533097320173	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533097717623	geckodriver	INFO	geckodriver 0.20.1
+1533097717687	geckodriver	INFO	Listening on 127.0.0.1:60393
+1533097718645	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.p7H4jjjCbpUH"
+2018-07-31 21:28:41.421 plugin-container[9346:2509230] Unable to find feedback application.
+2018-07-31 21:28:41.432 plugin-container[9346:2509230] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8037, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:28:41.758 plugin-container[9346:2509230] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x118b2ea60 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:28:41.762 plugin-container[9346:2509238] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-07-31 21:28:42.389 plugin-container[9351:2509427] Unable to find feedback application.
+2018-07-31 21:28:42.402 plugin-container[9351:2509427] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x6d3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1533097722455	Marionette	INFO	Listening on port 60404
+1533097722551	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-31 21:28:42.652 plugin-container[9351:2509427] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10e513b20 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:28:42.657 plugin-container[9351:2509439] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533097737915	geckodriver	INFO	geckodriver 0.20.1
+1533097737933	geckodriver	INFO	geckodriver 0.20.1
+1533097738051	geckodriver	INFO	Listening on 127.0.0.1:60637
+1533097738059	geckodriver	INFO	Listening on 127.0.0.1:60639
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533097738939	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.tpg097rgmmLp"
+1533097738947	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.31jwErgZScuR"
+2018-07-31 21:29:01.468 plugin-container[9358:2511564] Unable to find feedback application.
+2018-07-31 21:29:01.473 plugin-container[9357:2511562] Unable to find feedback application.
+2018-07-31 21:29:01.492 plugin-container[9357:2511562] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8503, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:29:01.496 plugin-container[9358:2511564] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7e3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:29:01.845 plugin-container[9358:2511564] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x114e70850 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:29:01.845 plugin-container[9357:2511562] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x113519940 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:29:01.851 plugin-container[9358:2511574] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-07-31 21:29:01.851 plugin-container[9357:2511566] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-07-31 21:29:02.105 plugin-container[9367:2511748] Unable to find feedback application.
+2018-07-31 21:29:02.118 plugin-container[9367:2511748] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a07, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:29:02.564 plugin-container[9367:2511748] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x111838730 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:29:02.574 plugin-container[9367:2511754] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533097743008	Marionette	INFO	Listening on port 60657
+1533097743287	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533097743294	Marionette	INFO	Listening on port 60654
+1533097743423	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-31 21:29:04.568 plugin-container[9368:2511873] Unable to find feedback application.
+2018-07-31 21:29:04.603 plugin-container[9368:2511873] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:29:05.438 plugin-container[9368:2511873] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11bd18c10 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:29:05.449 plugin-container[9368:2511877] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533098170839	geckodriver	INFO	geckodriver 0.20.1
+1533098170909	geckodriver	INFO	Listening on 127.0.0.1:61547
+1533098171866	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.2BXQDjdXe5nh"
+2018-07-31 21:36:14.031 plugin-container[9522:2536151] Unable to find feedback application.
+2018-07-31 21:36:14.041 plugin-container[9522:2536151] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8343, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:36:14.219 plugin-container[9522:2536151] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11de1a8e0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:36:14.223 plugin-container[9522:2536159] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533098174568	Marionette	INFO	Listening on port 61558
+1533098174636	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-31 21:36:15.827 plugin-container[9523:2536355] Unable to find feedback application.
+2018-07-31 21:36:15.835 plugin-container[9523:2536355] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:36:16.209 plugin-container[9523:2536355] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10ee1ac10 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:36:16.223 plugin-container[9523:2536367] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533098251372	geckodriver	INFO	geckodriver 0.20.1
+1533098251437	geckodriver	INFO	Listening on 127.0.0.1:62034
+1533098252397	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.ZG4i9i6wSldc"
+2018-07-31 21:37:34.110 plugin-container[9582:2545526] Unable to find feedback application.
+2018-07-31 21:37:34.118 plugin-container[9582:2545526] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8507, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:37:34.279 plugin-container[9582:2545526] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10d039790 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:37:34.282 plugin-container[9582:2545539] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533098254729	Marionette	INFO	Listening on port 62045
+1533098254920	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-31 21:37:36.191 plugin-container[9584:2545909] Unable to find feedback application.
+2018-07-31 21:37:36.205 plugin-container[9584:2545909] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7843, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:37:36.433 plugin-container[9584:2545909] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x111b7df40 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:37:36.436 plugin-container[9584:2545928] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533098705397	geckodriver	INFO	geckodriver 0.20.1
+1533098705461	geckodriver	INFO	Listening on 127.0.0.1:63132
+1533098706438	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.6zvFvGfKAMR3"
+2018-07-31 21:45:07.998 plugin-container[9846:2597029] Unable to find feedback application.
+2018-07-31 21:45:08.008 plugin-container[9846:2597029] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7643, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:45:08.228 plugin-container[9846:2597029] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x115d31a90 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:45:08.231 plugin-container[9846:2597035] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533098708575	Marionette	INFO	Listening on port 63143
+1533098708668	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-31 21:45:09.328 plugin-container[9847:2597224] Unable to find feedback application.
+2018-07-31 21:45:09.338 plugin-container[9847:2597224] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x753b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:45:09.470 plugin-container[9847:2597224] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x1057172b0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:45:09.473 plugin-container[9847:2597231] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533098734758	geckodriver	INFO	geckodriver 0.20.1
+1533098734833	geckodriver	INFO	Listening on 127.0.0.1:63317
+1533098735773	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.Jhrf64RRPYkf"
+2018-07-31 21:45:37.335 plugin-container[9861:2600531] Unable to find feedback application.
+2018-07-31 21:45:37.345 plugin-container[9861:2600531] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8243, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:45:37.500 plugin-container[9861:2600531] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x114e2fac0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:45:37.504 plugin-container[9861:2600537] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533098737778	Marionette	INFO	Listening on port 63324
+1533098737864	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-31 21:45:38.522 plugin-container[9862:2600778] Unable to find feedback application.
+2018-07-31 21:45:38.656 plugin-container[9862:2600778] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:45:38.851 plugin-container[9862:2600778] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11923e7c0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:45:38.854 plugin-container[9862:2600805] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533098842922	geckodriver	INFO	geckodriver 0.20.1
+1533098843001	geckodriver	INFO	Listening on 127.0.0.1:63608
+1533098843953	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.IV62D9UwwKdf"
+2018-07-31 21:47:25.899 plugin-container[9938:2612725] Unable to find feedback application.
+2018-07-31 21:47:25.918 plugin-container[9938:2612725] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8637, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:47:26.294 plugin-container[9938:2612725] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11b930a30 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:47:26.297 plugin-container[9938:2612731] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-07-31 21:47:26.934 plugin-container[9939:2612886] Unable to find feedback application.
+2018-07-31 21:47:26.946 plugin-container[9939:2612886] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x843b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1533098847029	Marionette	INFO	Listening on port 63615
+1533098847105	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-31 21:47:27.140 plugin-container[9939:2612886] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11c539760 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:47:27.145 plugin-container[9939:2612947] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533098855296	geckodriver	INFO	geckodriver 0.20.1
+1533098855452	geckodriver	INFO	Listening on 127.0.0.1:63816
+1533098856320	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.8rNlF6XwLuWt"
+2018-07-31 21:47:38.595 plugin-container[9946:2614562] Unable to find feedback application.
+2018-07-31 21:47:38.620 plugin-container[9946:2614562] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7943, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:47:38.910 plugin-container[9946:2614562] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11102ea60 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:47:38.914 plugin-container[9946:2614567] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-07-31 21:47:39.600 plugin-container[9947:2614743] Unable to find feedback application.
+2018-07-31 21:47:39.616 plugin-container[9947:2614743] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:47:39.923 plugin-container[9947:2614743] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x1162356a0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:47:39.932 plugin-container[9947:2614752] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533098860099	Marionette	INFO	Listening on port 63828
+1533098860184	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533099265560	geckodriver	INFO	geckodriver 0.20.1
+1533099265650	geckodriver	INFO	Listening on 127.0.0.1:64974
+1533099266615	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.uVj7hxfbG4de"
+2018-07-31 21:54:28.869 plugin-container[10248:2660119] Unable to find feedback application.
+2018-07-31 21:54:28.881 plugin-container[10248:2660119] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x723b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:54:29.120 plugin-container[10248:2660119] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11152d9d0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:54:29.125 plugin-container[10248:2660139] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533099269685	Marionette	INFO	Listening on port 64985
+1533099269719	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-31 21:54:29.821 plugin-container[10249:2660274] Unable to find feedback application.
+2018-07-31 21:54:29.832 plugin-container[10249:2660274] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7743, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:54:30.202 plugin-container[10249:2660274] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11213a760 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:54:30.208 plugin-container[10249:2660283] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533099289341	geckodriver	INFO	geckodriver 0.20.1
+1533099289354	geckodriver	INFO	geckodriver 0.20.1
+1533099289579	geckodriver	INFO	Listening on 127.0.0.1:65232
+1533099289581	geckodriver	INFO	Listening on 127.0.0.1:65230
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533099290353	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.Z0CeFpaP8inI"
+1533099290388	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s0/wmkqj225197fdx33jq0nl7100000gn/T/rust_mozprofile.0DcamW7purJi"
+2018-07-31 21:54:53.574 plugin-container[10256:2663410] Unable to find feedback application.
+2018-07-31 21:54:53.598 plugin-container[10256:2663410] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x753b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:54:53.612 plugin-container[10257:2663415] Unable to find feedback application.
+2018-07-31 21:54:53.633 plugin-container[10257:2663415] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8947, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:54:54.141 plugin-container[10256:2663410] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x118d0aa90 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:54:54.146 plugin-container[10256:2663422] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-07-31 21:54:54.209 plugin-container[10257:2663415] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x1240d78b0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:54:54.215 plugin-container[10257:2663448] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-07-31 21:54:54.625 plugin-container[10258:2663661] Unable to find feedback application.
+2018-07-31 21:54:54.640 plugin-container[10258:2663661] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x6f43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:54:55.025 plugin-container[10258:2663661] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10da3d730 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:54:55.031 plugin-container[10258:2663697] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1533099295280	Marionette	INFO	Listening on port 65245
+1533099295372	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533099295377	Marionette	INFO	Listening on port 65256
+1533099295404	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-31 21:54:58.601 plugin-container[10259:2664057] Unable to find feedback application.
+2018-07-31 21:54:58.637 plugin-container[10259:2664057] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x723f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-07-31 21:54:59.794 plugin-container[10259:2664057] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11cb1b280 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-07-31 21:54:59.805 plugin-container[10259:2664188] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid

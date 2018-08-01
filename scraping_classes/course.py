@@ -14,9 +14,13 @@ class Course(Scraper):
         # fill dictionary with structured data from course 
         self.data = {} 
 
-    def scrap_course_data(self): 
+    def scrap_course_data(self):
         # intanciate web driver from scraper and login
         super().__init__(starting_url=self.url)
+
+        # all courses have overlayContent divs for the course photo
+        # do not attempt any operations without first loading the page
+        self.sleep_until_div("overlayContent")
 
         # navigate to content tab from course home page 
         self.driver.find_element_by_link_text("Content").click()
