@@ -1,3 +1,4 @@
+from assignment import Assignment
 from scraper import Scraper 
 
 
@@ -25,18 +26,25 @@ class Course(Scraper):
         # navigate to content tab from course home page 
         self.driver.find_element_by_link_text("Content").click()
 
-        week_divs = self.get_week_divs()
+        week_divs = self.get_weekly_divs()
 
         # loop through list of week's assignments
-        for div in week_divs: 
-            print(div) 
+        # for div in week_divs: 
+        #     print(div) 
 
         ## create dictionary for each assignment 
 
         self.driver.quit()
 
-    def get_week_divs(self): 
-        pass 
+    def get_weekly_divs(self): 
+        table_of_contents_div = self.driver.find_elements_by_class_name("d2l_two_panel_selector_main")
+        print(table_of_contents_div)
+        
+        
+        # i = 0 
+        # while True: 
+        #     # start at the third div because table of contents doesn't have assignments 
+        #     tree.find_element_by_xpath(f"div[{i+2}]/div/div/div/div/")
 
     def scrap_data_by_week(self): 
         # yield weekly data 
